@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Server request
+	</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<form action="POST" id="form" class="form__body">
+		<div class="form__item">
+			<label for="formName" class="form__label _req">Name*:</label>
+			<input type="formName" type="text" name="name" class="form__input _req">
+		</div>
+		<div class="form__item">
+			<label for="formEmail" class="form__label _req">Email*:</label>
+			<input type="text" id="formEmail" name="email" class="form__input _req _email">
+		</div>
+		<div class="form__item">
+			<label for="formMessage" class="form__label _req">Message*:</label>
+			<textarea type="text" id="formMessage" name="message" class="form__input _req"></textarea>
+		</div>
+		<button type="submit" class="form__button">
+			Send
+		</button>
+	</form>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
