@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded',function() {
       let formData = new FormData(form)
 
       if(error === 0) {
-         let response = await fetch('sendmail.php', {
+         let response = await fetch('../sendmail.php', {
             method: 'POST',
             body: formData
          })
